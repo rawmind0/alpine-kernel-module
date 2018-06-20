@@ -19,6 +19,7 @@ docker build -t rawmind/alpine-kernel-module:<version> .
 
 - LOAD_MODULES=""       # Mandatory: Load kernel modules. Multiple values separted by `,`
 - KEEP_ALIVE="0"        # Set to 1 to keep container alive. (to run in k8s)
+- KEEP_ALIVE_SLEEP=600  # Sleep time in seconds when keep alive
 
 ## Usage
 
